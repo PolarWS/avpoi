@@ -1,6 +1,3 @@
-# avpoi
-一个提供B站视频信息下载的网站
----
 # **什么是avpoi**
 <code>avpoi</code>这个网站是拿来下载B站视频<code>xml</code>弹幕文件和封面所开发的
 
