@@ -16,7 +16,7 @@ ps：以后还会加个转<code>ASS</code>字幕格式和视频下载功能，�
 
 ## **avpoi如何使用**
 
-<img src="https://polarws-1252580753.cos.ap-chengdu.myqcloud.com/pot/mn1.png" width="95%" height="95%">
+<img src="http://m.polarws.moe:234/m.png" width="95%" height="95%">
 
 ## **以下是开发信息**
 
