@@ -1,0 +1,180 @@
+/* 整体框架 */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: #fc5258;
+}
+body{
+    background-color: #fc5258;
+}
+/* 整体 */
+.whole{
+    /* width: 1344px; */
+    width: 1536px;
+    height: 800px;
+    margin: 0px auto;
+}
+/* 网页头部 */
+.top{
+    height: 220px;
+    width: 1344px;
+    margin: 0px auto;
+}
+.footbox{
+    height: 240px;
+    width: 100%;
+    position:fixed; 
+    bottom:0;
+}
+.footbox img{
+    width: 250px;
+    height: 172px;
+    position: fixed;
+    right: 0px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position:fixed; 
+    bottom:0; 
+}
+/* 图片 */
+.img{
+    height: 220px;
+    width: 200px;
+    float: left;
+}
+
+.img img{
+    width: 92px;
+    height: 92px;
+    border-radius:100%;
+    border: 8px solid #FFFFFF;
+    margin-top: 56px;
+    margin-left: 46px;
+    float: left;
+}
+/* 搜索栏 */
+.search{
+    width: 650px;
+    height: 220px;
+    margin: 0px auto;
+}
+/* 搜索框 */
+#searchbox{
+    width: 360px;
+    height: 52px;
+    background-color: transparent;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px;
+    float: left;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 67px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+#searchbox:hover{
+    background-color: rgb(255,255,255,0.5)
+}
+/* 浏览器适配 */
+input::-webkit-input-placeholder{
+    color: rgb(255,255,255,0.8)
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgb(255,255,255,0.8)
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgb(255,255,255,0.8)
+}
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255,255,255,0.8)
+}
+
+/* 搜索按钮 */
+#searchbutton{
+    width: 150px;
+    height: 86px;
+    margin: 67px 0px;
+    padding: 5px 20px;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    font-size: 50px;
+    background-color: #ffffff;
+    float: right;
+    outline:none;
+}
+#searchbutton:hover{
+    background-color: rgb(255,255,255,0.7)
+}
+#searchbutton:active{
+    color: #ffffff;
+    background-color: transparent;
+}
+/* 取消选中 */
+input {
+    border: 0;
+    outline: none;
+}
+/* 视频图片套笼 */
+.picture{
+    width: 347px;
+    height: 580px;
+    margin-left: 96px;
+    float: left;
+}
+/* 视频图片 */
+#picturebox{
+    width: 326px;
+    height: 204px;
+    border-radius: 40px;
+    border: 8px solid #FFFFFF;
+    overflow:hidden;
+    margin-top: 130px;
+    float: right;
+
+    visibility: hidden;
+}
+#picture{
+    width: 100%;
+    height: 100%;
+}
+/* 视频信息套笼 */
+.content{
+    width: 997px;
+    height: 580px;
+    margin-right: 96px;
+    float: left;
+}
+#contentbox{
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 30px;
+    
+    margin-left: 40px;
+    margin-top: 130px;
+    float: left;
+
+    visibility: hidden;
+}
+/* 超链接文本 */
+.text{
+    text-decoration: none;
+    color: #ff8288;
+}
+/*文字间距*/
+p{
+    margin: 4px auto;
+} 
